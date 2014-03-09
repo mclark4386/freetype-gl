@@ -16,7 +16,7 @@ PLATFORM	= $(shell uname)
 DOXYGEN		= doxygen
 
 ifeq ($(PLATFORM), Darwin)
-	DOXYGEN = /Applications/Doxygen.app/Contents/Resources/doxygen
+#	DOXYGEN = /Applications/Doxygen.app/Contents/Resources/doxygen
 endif
 
 all: $(wildcard ../*.c) $(wildcard ../*.h) *.h 

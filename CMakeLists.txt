@@ -60,7 +60,7 @@ ELSE( WIN32 )
     FIND_PACKAGE( FontConfig )
     FIND_LIBRARY( MATH_LIBRARY m )
     #FIND_LIBRARY( STDC_LIBRARY stdc++) #Buggy Cmake can't find libstdc++
-    FIND_PACKAGE( AntTweakBar )
+    #FIND_PACKAGE( AntTweakBar )
 ENDIF( WIN32 )
 
 INCLUDE_DIRECTORIES( ${GLUT_INCLUDE_DIRS}
